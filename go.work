@@ -1,3 +1,6 @@
 go 1.22.0
 
-use D:\Restful_API\Restful_API\hello
+use (
+	D:\Restful_API\Restful_API
+	D:\Restful_API\Restful_API\hello
+)
