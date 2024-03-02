@@ -3,8 +3,10 @@ package greetings
 import (
 	"errors"
 	"fmt"
-	"math/rand"
+	"math/rand" 
 )
+//here math/rand is the function that is used generate the random values for the string that is being used here the 
+//greetings 3-4 lines are being generated randomly whenever a new user will come
 
 func Hello( name string) (string, error){
 	//no name given return error message
