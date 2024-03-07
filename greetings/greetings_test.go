@@ -20,6 +20,4 @@ func TestHelloEmpty(t*testing.T)  {
 	if msg != "" || err != nil {
 		t.Fatalf(`Hello("") = %q, %v, want "", error`, msg, err)	
 	}
-
-	
 }
