@@ -7,7 +7,6 @@ import (
 )
 
 func main () {
-	fmt.Println(reverse.String("Hello"))
-	fmt.Println(reverse.String("krithik"))
+	fmt.Println(reverse.String("Hello"), reverse.Int(24601))
 }
 //new module initialisation
